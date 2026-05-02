@@ -30,7 +30,9 @@ layout: page
       <thead>
         <tr>
           <th>Week</th>
+          {% comment %}
           <th>Date</th>
+          {% endcomment %}
           <th>Topic</th>
           <th>Materials</th>
         </tr>
@@ -39,7 +41,9 @@ layout: page
         {% for entry in page.schedule %}
           <tr>
             <td>{{ entry.week }}</td>
+            {% comment %}
             <td>{{ entry.date }}</td>
+            {% endcomment %}
             <td>
               {% if entry.topic %}
                 <strong>{{ entry.topic }}</strong>
