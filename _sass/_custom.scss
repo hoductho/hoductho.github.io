@@ -5,3 +5,25 @@
 .profile {
   margin-top: -120px;
 }
+
+.patent-year-heading {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.patent-entry {
+  margin-bottom: 1.8rem;
+}
+
+.patent-entry h3 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-bottom: 0.45rem;
+}
+
+.patent-entry p {
+  margin-bottom: 0;
+}
