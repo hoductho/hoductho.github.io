@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Patents
+title: patents
 permalink: /patents/
 description: Patent publications and intellectual property.
 nav: true
